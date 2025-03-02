@@ -14,7 +14,7 @@ gender = st.number_input("Gender", min_value=0, max_value=200, value=148, step=1
 total_bilirubin = st.number_input("Total Bilirubin", min_value=0, max_value=100, value=72, step=1)
 direct_bilirubin = st.number_input("Direct Bilirubin", min_value=0, max_value=100, value=35, step=1)
 alkaline_phosphotase = st.number_input("Alkaline Phosphotase", min_value=0, max_value=500, value=0, step=1) 
-alanine_aminotransferase = st.number_input("Alanine Aminotransferase", min_value=0, max_value=500, value=33.6, step=0.1)
+alanine_aminotransferase = st.number_input("Alanine Aminotransferase", min_value=0, max_value=500, value=336, step=01)
 aspartate_aminotransferase = st.number_input("Aspartate Aminotransferase", min_value=0.0, max_value=10.0, value=0.627, step=0.001)
 total_proteins = st.number_input("Total Proteins", min_value=0, max_value=10, value=50, step=1)
 albumin = st.number_input("Albumin", min_value=0, max_value=10, value=1, step=1)
