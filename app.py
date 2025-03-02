@@ -16,7 +16,7 @@ direct_bilirubin = st.number_input("Direct Bilirubin", min_value=0, max_value=10
 alkaline_phosphotase = st.number_input("Alkaline Phosphotase", min_value=0, max_value=500, value=0, step=1) 
 alanine_aminotransferase = st.number_input("Alanine Aminotransferase", min_value=0, max_value=500, value=336, step=1)
 aspartate_aminotransferase = st.number_input("Aspartate Aminotransferase", min_value=0.0, max_value=10.0, value=0.627, step=0.001)
-total_proteins = st.number_input("Total Proteins", min_value=0, max_value=10, value=50, step=1)
+total_proteins = st.number_input("Total Proteins", min_value=0, max_value=10, value=10, step=1)
 albumin = st.number_input("Albumin", min_value=0, max_value=10, value=1, step=1)
 albumin_and_globulin_ratio = st.number_input("Albumin and Globulin Ratio", min_value=0.0, max_value=10.0, value=3.1, step=0.1) 
 
